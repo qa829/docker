@@ -14,8 +14,9 @@ script:
 # - sudo cat /etc/docker/daemon.json
 # - docker run node ls
 # - docker run ruby ls
-- docker run debian ls
-- docker run debian:8 ls
+- docker run rabbitmq ls
+- docker run mysql ls
+- docker run postgres ls
 # - docker run ubuntu:18.04 ls
 # - docker run ubuntu:20.04 ls
 
