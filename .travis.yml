@@ -21,10 +21,14 @@ script:
 # - docker run ubuntu:18.04 ls
 # - docker run ubuntu:20.04 ls
 
-jobs:
-  include:
-  - php: 7.4
-  - php: 8.0
+language: php
+php:
+  - '7.3'
+  - '7.4'
+  - '8.0'
+  
+# jobs:
+#   include:
 #   - rvm: 2.7.2
 #     name: Ruby 2.7.2
 #   - rvm: 2.7.1
